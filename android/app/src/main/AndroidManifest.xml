@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.diabetes_locator_app">
    <application
-        android:label="diabetes_locator_app"
+        android:label="Diabetes Locator"
         android:icon="@mipmap/ic_launcher">
        <meta-data android:name="com.google.android.geo.API_KEY"
            android:value="AIzaSyAlSTo9cjWNPyO5cbzlkXz5FSebZdq0Op4"/>
