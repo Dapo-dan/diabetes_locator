@@ -29,20 +29,19 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Home Screen'),
+        title: const Text('Abstract'),
       ),
       body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: const <Widget>[
-            Text(
-              'Google Map',
+        child: Container(
+          padding: EdgeInsets.fromLTRB(20,20,20,20),
+          child: const Text(
+              'The purpose of this application is to check the number of diabetic patients in Nigerian states. It was done using flutter and Google Maps API for the location',
               style: TextStyle(
-                  fontSize: 24,
+                letterSpacing: 2.0,
+                  fontSize: 30,
                   fontWeight: FontWeight.bold
               ),
             ),
-          ],
         ),
       ),
       floatingActionButton: FloatingActionButton(

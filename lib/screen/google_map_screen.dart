@@ -316,7 +316,7 @@ class _GoogleMapScreenState extends State<GoogleMapScreen> {
         markers: _markers,
         initialCameraPosition: CameraPosition(
         target: LatLng(7.519585,4.521158),
-        zoom:  8,
+        zoom:  6,
       ))
     );
   }
