@@ -84,6 +84,7 @@ class _GoogleMapScreenState extends State<GoogleMapScreen> {
       );
       _markers.add(
         const Marker(
+
             markerId: MarkerId ('id-7'),
             infoWindow: InfoWindow(
                 title: 'Cross River',
