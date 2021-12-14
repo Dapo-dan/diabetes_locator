@@ -315,7 +315,7 @@ class _GoogleMapScreenState extends State<GoogleMapScreen> {
       body: GoogleMap(
         onMapCreated: _onMapCreated,
         markers: _markers,
-        initialCameraPosition: CameraPosition(
+        initialCameraPosition: const CameraPosition(
         target: LatLng(7.519585,4.521158),
         zoom:  6,
       ))
