@@ -33,7 +33,7 @@ class HomePage extends StatelessWidget {
       ),
       body: Center(
         child: Container(
-          padding: EdgeInsets.fromLTRB(20,20,20,20),
+          padding: const EdgeInsets.fromLTRB(20,20,20,20),
           child: const Text(
               'The purpose of this application is to check the number of diabetic patients in Nigerian states. It was done using flutter and Google Maps API for the location',
               style: TextStyle(
